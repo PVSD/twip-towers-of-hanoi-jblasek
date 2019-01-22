@@ -9,6 +9,7 @@ public class Main {
         int numOfDisks = kbReader.nextInt();
 
         System.out.println("Here are the steps needed to complete the TOWERS OF HANOI with "+ numOfDisks + " disks.");
-        Hanoi.steps(numOfDisks, "A", "B", "C");
+        TowersOfHanoi.steps(numOfDisks, "A", "B", "C");
+        System.out.println("It will take " + TowersOfHanoi.numOfSteps + " steps to complete.");
     }
 }
